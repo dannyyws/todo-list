@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<title> To-do List </title>
+	<head>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="main.css">
+	</head>
+	<body>
+		<h2> Work To-Dos</h2>
+		<p> Enter text into the input field to add items to your list. </p>
+		<p> Click the item to mark it as complete. </p>
+		<p> Click the <i class="fas fa-trash-alt"> </i> to remove the item from your list. </p>
+		<div class="input-div">
+			<input type="text" \
+				class="input_text" \
+				placeholder="New action..." \
+				onkeydown="enter_add()" \
+				maxlength=50>
+			<button onclick="add_item()"> <i class="fas fa-pencil-alt"> </i></button>
+		</div>
+		<nav class="item-list-nav">
+			<ul class="item-list">
+				<li class="item"> e.g.  
+					<button class="delete_btn">
+						<i class="fas fa-trash-alt"> </i>
+					</button>
+				</li>
+			</ul>
+		</nav>
+	</body>
+	<script type="text/javascript" src="script.js"></script>
+</html>

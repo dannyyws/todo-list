@@ -35,6 +35,7 @@ h2 {
 
 .input-div button {
 	width:2rem;
+	height:2rem;
 }
 
 
@@ -44,6 +45,7 @@ h2 {
 	margin: 0 auto;
 	min-width: 65%;
 	width: auto;
+	padding:.4rem;
 }
 
 .item-list-nav ul{
